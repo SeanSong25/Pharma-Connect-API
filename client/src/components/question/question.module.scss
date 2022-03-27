@@ -1,0 +1,52 @@
+// @import '../common-sass/top-story.module'
+
+.loading {
+  display: inline-flex;
+}
+
+.questionContainer {
+  background-color: #fff;
+  padding: 1rem 0;
+
+  & .questionInner {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+
+    & .title {
+      text-align: center;
+      line-height: 50px;
+      color: #121212;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    & .content {
+      min-height: 10px;
+      padding: 15px 0;
+    }
+
+    & .button {
+      border-radius: 3px;
+      color: #0084ff;
+      background-color: #fff;
+      padding: 0 14px;
+      border-color: #0084ff;
+      text-align: center;
+      height: 32px;
+      position: relative;
+      display: inline-block;
+      transition: all 0.2s;
+    }
+  }
+}
+
+.answerContainer {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 3rem;
+
+  & .answerList {
+    padding-top: 1rem;
+  }
+}
